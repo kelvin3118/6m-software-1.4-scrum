@@ -10,19 +10,19 @@
 
 class TvSignal extends BaseSignal {
     constructor(){
-        // Add code here
+        super('tv');
     }
 }
 
 class AirconSignal extends BaseSignal {
-    constructor(){
-        // Add code here
+    constructor() {
+        super('aircon');
     }
 }
 
 class DoorSignal extends BaseSignal {
-    constructor(){
-        // Add code here
+    constructor() {
+        super('door');
     }
 }
 
